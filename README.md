@@ -3,7 +3,7 @@ This is a simple calculator program written in C# using Windows Forms. It allows
 
 ## Getting Started
 
-To get started, clone or download the repository and open the project in Visual Studio. Once the project is open, you can run the program by clicking the Start button in the toolbar.
+To get started, clone or download the repository and open the project in Visual Studio. Once the project is open, you can run the program by clicking the Start button in the toolbar or clicking the F5 key on the keyboard.
 
 ## Using the Calculator
 
