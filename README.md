@@ -16,10 +16,6 @@ Special operations: square root, square, percent, inverse, sign change
 History TextBox displays the calculation that was performed
 Clear button (C) resets the TextBox and history TextBox to their default state
 
-## Credits
-
-
-This program was created by Naol Bullo
 
 ## Preview
 
@@ -27,3 +23,9 @@ This program was created by Naol Bullo
 
 
 ![image](https://user-images.githubusercontent.com/92548627/209498789-8b7cac8e-72cd-40c7-ae7f-8f11c25b8781.png)
+
+
+## Credits
+
+
+This program was created by Naol Bullo
