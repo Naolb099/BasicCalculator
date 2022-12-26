@@ -55,8 +55,6 @@
             this.textBox = new System.Windows.Forms.TextBox();
             this.history = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // button1
@@ -364,7 +362,7 @@
             this.history.BackColor = System.Drawing.SystemColors.ControlLight;
             this.history.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.history.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.history.Location = new System.Drawing.Point(48, 25);
+            this.history.Location = new System.Drawing.Point(29, 25);
             this.history.Name = "history";
             this.history.Size = new System.Drawing.Size(200, 21);
             this.history.TabIndex = 25;
@@ -378,34 +376,11 @@
             this.label1.Size = new System.Drawing.Size(0, 25);
             this.label1.TabIndex = 26;
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(271, 325);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(155, 35);
-            this.button2.TabIndex = 27;
-            this.button2.TabStop = false;
-            this.button2.Text = "Clear Histroy";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(271, 67);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(155, 254);
-            this.listBox1.TabIndex = 28;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(438, 364);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(258, 364);
             this.Controls.Add(this.history);
             this.Controls.Add(this.textBox);
             this.Controls.Add(this.equal);
@@ -434,8 +409,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.KeyPreview = true;
-            this.MaximumSize = new System.Drawing.Size(460, 420);
-            this.MinimumSize = new System.Drawing.Size(460, 420);
+            this.MaximumSize = new System.Drawing.Size(280, 420);
+            this.MinimumSize = new System.Drawing.Size(280, 420);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
